@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="TerminalProjectOptionsProvider">
+    <envs>
+      <env key="ANDROID_SDK_HOME" value="/Volumes/USB/sdk/" />
+      <env key="ANDROID_SDK_ROOT" value="/Volumes/USB/sdk/" />
+    </envs>
+  </component>
+</project>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Gas Radar</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

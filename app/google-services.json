@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "519654835951",
+    "firebase_url": "https://gasradarsignup.firebaseio.com",
+    "project_id": "gasradarsignup",
+    "storage_bucket": "gasradarsignup.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519654835951:android:160856edc9d13c09c87d1a",
+        "android_client_info": {
+          "package_name": "GasRadarPackage.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "519654835951-8iejvd7mpu72sji0f7g1t4fn8aapol8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKSdP7AseDqu2Ast9t2lIHkNtvYbhqX8s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "519654835951-8iejvd7mpu72sji0f7g1t4fn8aapol8c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519654835951:android:24ae5055b9425850c87d1a",
+        "android_client_info": {
+          "package_name": "com.example.gasradar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "519654835951-8iejvd7mpu72sji0f7g1t4fn8aapol8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKSdP7AseDqu2Ast9t2lIHkNtvYbhqX8s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "519654835951-8iejvd7mpu72sji0f7g1t4fn8aapol8c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

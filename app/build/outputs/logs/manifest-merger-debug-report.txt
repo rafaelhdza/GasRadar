@@ -1,0 +1,529 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:2:1-63:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/b128781b27d19bd677962f541282bd49/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/caa529679f65d8db1d5ef248464fd49b/play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/b8501eeab3cb73ae63b5ca235cd06b95/play-services-location-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/4bdc7fbd8872220b9b0f8cdc4a9d4575/firebase-analytics-17.2.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-dynamic-links:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/4bb48ce5e10ec3e06818d3b8ce8ea736/firebase-dynamic-links-19.0.0/AndroidManifest.xml:2:1-15:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/3e50d18d10caf0c84c3b798a29d3be52/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/6b926f3308ecb3f56f6d0b99fd8c82f6/play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/a59d3b8db7f6cead925fe1c48a49ee3a/play-services-measurement-api-17.2.1/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/3011de87fc6688213df3d3b67700d344/firebase-auth-interop-18.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/0648bb262efcb5f4bd0f9864ca3bc8d0/play-services-auth-api-phone-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/e65ca5f59f0ae070f4509d020778afa5/play-services-auth-base-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8d6c71fbe8f98be5cee2d8590e723fee/firebase-iid-interop-17.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/89b58047dabc80b61a02f1a132f7b1e8/play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/70f337655de90d5c742e4d0ca76b9331/firebase-common-19.0.0/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/76173637fcd0346fcffc96860379804f/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/cad522513eaf064935e0aae6a34e2fea/play-services-measurement-sdk-17.2.1/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c3921b50b0b862d67bde06bd786cdd58/firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/52e7420c236b3dc4e94837b6bae7c8e5/play-services-measurement-impl-17.2.1/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/b0ecc4e7370931e304d08705e859c111/play-services-measurement-sdk-api-17.2.1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/e1ce8ec16438ed685114141256d6ebcb/play-services-measurement-base-17.2.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/0a39e0a9976d7c6f99757a5eec58f184/play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/a8488a6c24f95d2548e32f41214e8d5b/play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/3fdf641b124e4bbc6efd160c110ba0f5/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/38544af05700c0740ec4e57123e93ff8/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/86441a77bdd6184b1f28a13229480806/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/7c0dcf9c3b26c7637b326f64240761f0/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/5a3f23fbb15a41bc0fa3d55aae0057aa/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/b83672ab927aa4a9804b2d23e6ccbed8/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c81ccaf9a67f7270ac1e5d4f6b60eb33/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/09bca52d1f183f9e46d674e6c44fbe08/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/5e01aaef64c672842dc0a72e38655b23/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/4330b708bfc1653c8346bd8398221481/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/4f1f87aa263bf5dc85c9bb5c48853899/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/e7a0db2c8c228644eb3f3f178eedda8f/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/5bfd167ed0227d8fee19446275c534f6/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/4957569f4a3b8663d257c1ed18cfc74f/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/96179bf7a3d43ad49f149c57e686e1aa/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/518cff37602784329558aec30d012fc2/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8643fee6fe5ba40eac87571a5d59b8a9/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/1e954622c7fbe9088d921e72eb67340a/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/68c122ebc838b6c9b0c132e175fbd3de/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/7f7d2f30d9baa29d0ab0153379006ceb/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/08c06d12e42b204d4797e596e3ed9733/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/0531bf75921a4195f59d04764a7b0f9e/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8a596ea1706b3bd4f3c367254fc516f7/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/e83a4a552c6799363c20a6f3c549e478/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:2:1-63:12
+	package
+		ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:3:5-35
+		INJECTED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:2:1-63:12
+		INJECTED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:2:1-63:12
+		INJECTED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:10:22-76
+application
+ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:12:5-61:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/caa529679f65d8db1d5ef248464fd49b/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/caa529679f65d8db1d5ef248464fd49b/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/b8501eeab3cb73ae63b5ca235cd06b95/play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/b8501eeab3cb73ae63b5ca235cd06b95/play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/4bdc7fbd8872220b9b0f8cdc4a9d4575/firebase-analytics-17.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/4bdc7fbd8872220b9b0f8cdc4a9d4575/firebase-analytics-17.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-dynamic-links:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/4bb48ce5e10ec3e06818d3b8ce8ea736/firebase-dynamic-links-19.0.0/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-dynamic-links:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/4bb48ce5e10ec3e06818d3b8ce8ea736/firebase-dynamic-links-19.0.0/AndroidManifest.xml:7:5-13:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/3e50d18d10caf0c84c3b798a29d3be52/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/3e50d18d10caf0c84c3b798a29d3be52/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/6b926f3308ecb3f56f6d0b99fd8c82f6/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/6b926f3308ecb3f56f6d0b99fd8c82f6/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/a59d3b8db7f6cead925fe1c48a49ee3a/play-services-measurement-api-17.2.1/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/a59d3b8db7f6cead925fe1c48a49ee3a/play-services-measurement-api-17.2.1/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/3011de87fc6688213df3d3b67700d344/firebase-auth-interop-18.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/3011de87fc6688213df3d3b67700d344/firebase-auth-interop-18.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8d6c71fbe8f98be5cee2d8590e723fee/firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8d6c71fbe8f98be5cee2d8590e723fee/firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/89b58047dabc80b61a02f1a132f7b1e8/play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/89b58047dabc80b61a02f1a132f7b1e8/play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/70f337655de90d5c742e4d0ca76b9331/firebase-common-19.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/70f337655de90d5c742e4d0ca76b9331/firebase-common-19.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/76173637fcd0346fcffc96860379804f/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/76173637fcd0346fcffc96860379804f/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/cad522513eaf064935e0aae6a34e2fea/play-services-measurement-sdk-17.2.1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/cad522513eaf064935e0aae6a34e2fea/play-services-measurement-sdk-17.2.1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c3921b50b0b862d67bde06bd786cdd58/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c3921b50b0b862d67bde06bd786cdd58/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/52e7420c236b3dc4e94837b6bae7c8e5/play-services-measurement-impl-17.2.1/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/52e7420c236b3dc4e94837b6bae7c8e5/play-services-measurement-impl-17.2.1/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/e1ce8ec16438ed685114141256d6ebcb/play-services-measurement-base-17.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/e1ce8ec16438ed685114141256d6ebcb/play-services-measurement-base-17.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/0a39e0a9976d7c6f99757a5eec58f184/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/0a39e0a9976d7c6f99757a5eec58f184/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/a8488a6c24f95d2548e32f41214e8d5b/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/a8488a6c24f95d2548e32f41214e8d5b/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/3fdf641b124e4bbc6efd160c110ba0f5/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/3fdf641b124e4bbc6efd160c110ba0f5/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/e7a0db2c8c228644eb3f3f178eedda8f/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/e7a0db2c8c228644eb3f3f178eedda8f/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/96179bf7a3d43ad49f149c57e686e1aa/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/96179bf7a3d43ad49f149c57e686e1aa/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/e7a0db2c8c228644eb3f3f178eedda8f/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:15:9-41
+	android:roundIcon
+		ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:16:9-54
+	android:icon
+		ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:14:9-43
+	android:allowBackup
+		ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:18:9-40
+activity#com.example.gasradar.Home
+ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:28:9-51
+	android:name
+		ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:28:19-39
+activity#com.example.gasradar.LoginPage
+ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:29:9-47
+	android:name
+		ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:29:19-44
+activity#com.example.gasradar.SignUp
+ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:30:19-41
+activity#com.example.gasradar.IntroPage
+ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:31:9-47:20
+	android:name
+		ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:31:19-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:32:13-36:29
+action#android.intent.action.MAIN
+ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:35:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:example.com+data:scheme:https
+ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:37:13-46:29
+action#android.intent.action.VIEW
+ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:38:17-69
+	android:name
+		ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:38:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:40:17-76
+	android:name
+		ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:40:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:41:17-78
+	android:name
+		ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:41:27-75
+data
+ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:43:17-45:46
+	android:host
+		ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:44:21-47
+	android:scheme
+		ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:45:21-43
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:48:9-50:55
+	android:value
+		ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:50:13-52
+	android:name
+		ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:49:13-58
+activity#com.example.gasradar.MapsActivity
+ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:52:9-60:20
+	android:label
+		ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:54:13-56
+	android:name
+		ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml:53:13-41
+uses-sdk
+INJECTED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/b128781b27d19bd677962f541282bd49/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/b128781b27d19bd677962f541282bd49/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/caa529679f65d8db1d5ef248464fd49b/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/caa529679f65d8db1d5ef248464fd49b/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/b8501eeab3cb73ae63b5ca235cd06b95/play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/b8501eeab3cb73ae63b5ca235cd06b95/play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/4bdc7fbd8872220b9b0f8cdc4a9d4575/firebase-analytics-17.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/4bdc7fbd8872220b9b0f8cdc4a9d4575/firebase-analytics-17.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-dynamic-links:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/4bb48ce5e10ec3e06818d3b8ce8ea736/firebase-dynamic-links-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-dynamic-links:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/4bb48ce5e10ec3e06818d3b8ce8ea736/firebase-dynamic-links-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/3e50d18d10caf0c84c3b798a29d3be52/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/3e50d18d10caf0c84c3b798a29d3be52/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/6b926f3308ecb3f56f6d0b99fd8c82f6/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/6b926f3308ecb3f56f6d0b99fd8c82f6/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/a59d3b8db7f6cead925fe1c48a49ee3a/play-services-measurement-api-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/a59d3b8db7f6cead925fe1c48a49ee3a/play-services-measurement-api-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/3011de87fc6688213df3d3b67700d344/firebase-auth-interop-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/3011de87fc6688213df3d3b67700d344/firebase-auth-interop-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/0648bb262efcb5f4bd0f9864ca3bc8d0/play-services-auth-api-phone-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/0648bb262efcb5f4bd0f9864ca3bc8d0/play-services-auth-api-phone-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/e65ca5f59f0ae070f4509d020778afa5/play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/e65ca5f59f0ae070f4509d020778afa5/play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8d6c71fbe8f98be5cee2d8590e723fee/firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8d6c71fbe8f98be5cee2d8590e723fee/firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/89b58047dabc80b61a02f1a132f7b1e8/play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/89b58047dabc80b61a02f1a132f7b1e8/play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/70f337655de90d5c742e4d0ca76b9331/firebase-common-19.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/70f337655de90d5c742e4d0ca76b9331/firebase-common-19.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/76173637fcd0346fcffc96860379804f/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/76173637fcd0346fcffc96860379804f/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/cad522513eaf064935e0aae6a34e2fea/play-services-measurement-sdk-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/cad522513eaf064935e0aae6a34e2fea/play-services-measurement-sdk-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c3921b50b0b862d67bde06bd786cdd58/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c3921b50b0b862d67bde06bd786cdd58/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/52e7420c236b3dc4e94837b6bae7c8e5/play-services-measurement-impl-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/52e7420c236b3dc4e94837b6bae7c8e5/play-services-measurement-impl-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/b0ecc4e7370931e304d08705e859c111/play-services-measurement-sdk-api-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/b0ecc4e7370931e304d08705e859c111/play-services-measurement-sdk-api-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/e1ce8ec16438ed685114141256d6ebcb/play-services-measurement-base-17.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/e1ce8ec16438ed685114141256d6ebcb/play-services-measurement-base-17.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/0a39e0a9976d7c6f99757a5eec58f184/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/0a39e0a9976d7c6f99757a5eec58f184/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/a8488a6c24f95d2548e32f41214e8d5b/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/a8488a6c24f95d2548e32f41214e8d5b/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/3fdf641b124e4bbc6efd160c110ba0f5/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/3fdf641b124e4bbc6efd160c110ba0f5/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/38544af05700c0740ec4e57123e93ff8/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/38544af05700c0740ec4e57123e93ff8/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/86441a77bdd6184b1f28a13229480806/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/86441a77bdd6184b1f28a13229480806/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/7c0dcf9c3b26c7637b326f64240761f0/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/7c0dcf9c3b26c7637b326f64240761f0/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/5a3f23fbb15a41bc0fa3d55aae0057aa/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/5a3f23fbb15a41bc0fa3d55aae0057aa/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/b83672ab927aa4a9804b2d23e6ccbed8/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/b83672ab927aa4a9804b2d23e6ccbed8/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c81ccaf9a67f7270ac1e5d4f6b60eb33/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c81ccaf9a67f7270ac1e5d4f6b60eb33/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/09bca52d1f183f9e46d674e6c44fbe08/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/09bca52d1f183f9e46d674e6c44fbe08/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/5e01aaef64c672842dc0a72e38655b23/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/5e01aaef64c672842dc0a72e38655b23/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/4330b708bfc1653c8346bd8398221481/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/4330b708bfc1653c8346bd8398221481/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/4f1f87aa263bf5dc85c9bb5c48853899/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/4f1f87aa263bf5dc85c9bb5c48853899/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/e7a0db2c8c228644eb3f3f178eedda8f/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/e7a0db2c8c228644eb3f3f178eedda8f/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/5bfd167ed0227d8fee19446275c534f6/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/5bfd167ed0227d8fee19446275c534f6/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/4957569f4a3b8663d257c1ed18cfc74f/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/4957569f4a3b8663d257c1ed18cfc74f/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/96179bf7a3d43ad49f149c57e686e1aa/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/96179bf7a3d43ad49f149c57e686e1aa/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/518cff37602784329558aec30d012fc2/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/518cff37602784329558aec30d012fc2/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8643fee6fe5ba40eac87571a5d59b8a9/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8643fee6fe5ba40eac87571a5d59b8a9/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/1e954622c7fbe9088d921e72eb67340a/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/1e954622c7fbe9088d921e72eb67340a/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/68c122ebc838b6c9b0c132e175fbd3de/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/68c122ebc838b6c9b0c132e175fbd3de/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/7f7d2f30d9baa29d0ab0153379006ceb/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/7f7d2f30d9baa29d0ab0153379006ceb/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/08c06d12e42b204d4797e596e3ed9733/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/08c06d12e42b204d4797e596e3ed9733/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/0531bf75921a4195f59d04764a7b0f9e/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/0531bf75921a4195f59d04764a7b0f9e/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8a596ea1706b3bd4f3c367254fc516f7/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8a596ea1706b3bd4f3c367254fc516f7/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/e83a4a552c6799363c20a6f3c549e478/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/e83a4a552c6799363c20a6f3c549e478/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Rafael/Edition3.0-master/Chapter 08 - Andriod MyContactList/GasRadar/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/caa529679f65d8db1d5ef248464fd49b/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/a59d3b8db7f6cead925fe1c48a49ee3a/play-services-measurement-api-17.2.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/a59d3b8db7f6cead925fe1c48a49ee3a/play-services-measurement-api-17.2.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/52e7420c236b3dc4e94837b6bae7c8e5/play-services-measurement-impl-17.2.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/52e7420c236b3dc4e94837b6bae7c8e5/play-services-measurement-impl-17.2.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/b0ecc4e7370931e304d08705e859c111/play-services-measurement-sdk-api-17.2.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/b0ecc4e7370931e304d08705e859c111/play-services-measurement-sdk-api-17.2.1/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/caa529679f65d8db1d5ef248464fd49b/play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/caa529679f65d8db1d5ef248464fd49b/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/a59d3b8db7f6cead925fe1c48a49ee3a/play-services-measurement-api-17.2.1/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/a59d3b8db7f6cead925fe1c48a49ee3a/play-services-measurement-api-17.2.1/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/52e7420c236b3dc4e94837b6bae7c8e5/play-services-measurement-impl-17.2.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/52e7420c236b3dc4e94837b6bae7c8e5/play-services-measurement-impl-17.2.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/b0ecc4e7370931e304d08705e859c111/play-services-measurement-sdk-api-17.2.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/b0ecc4e7370931e304d08705e859c111/play-services-measurement-sdk-api-17.2.1/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/caa529679f65d8db1d5ef248464fd49b/play-services-maps-17.0.0/AndroidManifest.xml:24:22-64
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/caa529679f65d8db1d5ef248464fd49b/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/caa529679f65d8db1d5ef248464fd49b/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/caa529679f65d8db1d5ef248464fd49b/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/caa529679f65d8db1d5ef248464fd49b/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/caa529679f65d8db1d5ef248464fd49b/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/caa529679f65d8db1d5ef248464fd49b/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-dynamic-links:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/4bb48ce5e10ec3e06818d3b8ce8ea736/firebase-dynamic-links-19.0.0/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-dynamic-links:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/4bb48ce5e10ec3e06818d3b8ce8ea736/firebase-dynamic-links-19.0.0/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/a59d3b8db7f6cead925fe1c48a49ee3a/play-services-measurement-api-17.2.1/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/a59d3b8db7f6cead925fe1c48a49ee3a/play-services-measurement-api-17.2.1/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:37:17-109
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
+meta-data#com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar
+ADDED from [com.google.firebase:firebase-dynamic-links:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/4bb48ce5e10ec3e06818d3b8ce8ea736/firebase-dynamic-links-19.0.0/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [com.google.firebase:firebase-dynamic-links:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/4bb48ce5e10ec3e06818d3b8ce8ea736/firebase-dynamic-links-19.0.0/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-dynamic-links:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/4bb48ce5e10ec3e06818d3b8ce8ea736/firebase-dynamic-links-19.0.0/AndroidManifest.xml:10:17-133
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/a59d3b8db7f6cead925fe1c48a49ee3a/play-services-measurement-api-17.2.1/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/52e7420c236b3dc4e94837b6bae7c8e5/play-services-measurement-impl-17.2.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/52e7420c236b3dc4e94837b6bae7c8e5/play-services-measurement-impl-17.2.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/b0ecc4e7370931e304d08705e859c111/play-services-measurement-sdk-api-17.2.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/b0ecc4e7370931e304d08705e859c111/play-services-measurement-sdk-api-17.2.1/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/a59d3b8db7f6cead925fe1c48a49ee3a/play-services-measurement-api-17.2.1/AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/a59d3b8db7f6cead925fe1c48a49ee3a/play-services-measurement-api-17.2.1/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/a59d3b8db7f6cead925fe1c48a49ee3a/play-services-measurement-api-17.2.1/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/a59d3b8db7f6cead925fe1c48a49ee3a/play-services-measurement-api-17.2.1/AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:42:25-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/89b58047dabc80b61a02f1a132f7b1e8/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/89b58047dabc80b61a02f1a132f7b1e8/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/89b58047dabc80b61a02f1a132f7b1e8/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/89b58047dabc80b61a02f1a132f7b1e8/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/70f337655de90d5c742e4d0ca76b9331/firebase-common-19.0.0/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/70f337655de90d5c742e4d0ca76b9331/firebase-common-19.0.0/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/70f337655de90d5c742e4d0ca76b9331/firebase-common-19.0.0/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/70f337655de90d5c742e4d0ca76b9331/firebase-common-19.0.0/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/70f337655de90d5c742e4d0ca76b9331/firebase-common-19.0.0/AndroidManifest.xml:13:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/52e7420c236b3dc4e94837b6bae7c8e5/play-services-measurement-impl-17.2.1/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/52e7420c236b3dc4e94837b6bae7c8e5/play-services-measurement-impl-17.2.1/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/52e7420c236b3dc4e94837b6bae7c8e5/play-services-measurement-impl-17.2.1/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/52e7420c236b3dc4e94837b6bae7c8e5/play-services-measurement-impl-17.2.1/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:49:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/3fdf641b124e4bbc6efd160c110ba0f5/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/3fdf641b124e4bbc6efd160c110ba0f5/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/3fdf641b124e4bbc6efd160c110ba0f5/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
