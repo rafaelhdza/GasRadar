@@ -11,6 +11,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.facebook.CallbackManager;
+import com.facebook.FacebookSdk;
+import com.facebook.login.widget.LoginButton;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -35,6 +38,7 @@ public class SignUp extends AppCompatActivity {
         password = findViewById(R.id.signupPassword);
         btnSignUp = findViewById(R.id.signupButton);
         login = findViewById(R.id.textLogin);
+
 
         btnSignUp.setOnClickListener(new View.OnClickListener(){
             @Override

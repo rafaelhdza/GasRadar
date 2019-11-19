@@ -3,16 +3,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    <!--Google Maps Fragment-->
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:map="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/map"
     android:name="com.google.android.gms.maps.SupportMapFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MapsActivity"
-    />
+    tools:context=".MapsActivity"/>
 
+   <!-- <CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp">
+
+        <fragment
+            android:id="@+id/autocomplete_fragment"
+            android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </CardView>-->
+
+<!--
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="50dp"
@@ -23,7 +39,8 @@
     android:background="@drawable/white_border"
     android:id="@+id/relLayout1">
 
-    <ImageView
+
+   <ImageView
         android:layout_width="15dp"
         android:layout_height="15dp"
         android:id="@+id/ic_magnify"
@@ -43,18 +60,21 @@
         android:hint="Enter Address,City or Zip Code"
         android:imeOptions="actionSearch"
         />
-</RelativeLayout>
 
-    <!--<ImageView
-        android:id="@+id/ic_gps"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_below="@+id/relLayout1"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="500dp"
+
+</RelativeLayout> -->
+
+    <Button
+        android:id="@+id/SearchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
         android:layout_marginRight="25dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/ic_gps" />-->
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="300dp"
+
+
+        />
 
     <ImageButton
         android:id="@+id/gps_button"
@@ -62,11 +82,11 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_alignParentRight="true"
-        android:layout_below="@+id/relLayout1"
         android:layout_marginTop="500dp"
         android:layout_marginRight="25dp"
-        android:src="@drawable/ic_gps"
-        />
+        android:src="@drawable/ic_gps" />
+
+
 
 
 </RelativeLayout>
