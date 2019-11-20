@@ -1266,6 +1266,8 @@ id ALT
 id CTRL
 id FUNCTION
 id GasRadarTitle
+id GasStationName
+id GasStationVicinity
 id GuestButton
 id LogInButton
 id LogInEmail
@@ -1419,6 +1421,7 @@ id line1
 id line3
 id listMode
 id list_item
+id list_view
 id login_button
 id map
 id media_actions
@@ -1601,6 +1604,7 @@ layout com_facebook_login_fragment
 layout com_facebook_smart_device_dialog_fragment
 layout com_facebook_tooltip_bubble
 layout custom_dialog
+layout list_item
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action

@@ -99,6 +99,5 @@ public class LoginPage extends AppCompatActivity {
             }
         });
 
-
     }
 }

@@ -70,7 +70,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     int AUTOCOMPLETE_REQUEST_CODE = 1;
     Button SearchButton;
 
-
+    @Override
+    public void onBackPressed() {
+    }
 
     private void initMap(){
          final SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
@@ -132,6 +134,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         getLocationPermission();
         // Set the fields to specify which types of place data to
         // return after the user has made a selection.
+
 
         if (!Places.isInitialized()) {
             Places.initialize(getApplicationContext(), "AIzaSyA0zCWP8KYsLyrfnxBKNli4KyLMTNcHP6I");

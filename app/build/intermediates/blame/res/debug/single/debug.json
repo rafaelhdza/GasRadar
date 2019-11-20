@@ -36,6 +36,10 @@
         "source": "/Users/Rafael/GasRadar/app/src/main/res/drawable-anydpi/ic_gps.xml"
     },
     {
+        "merged": "/Users/Rafael/GasRadar/app/build/intermediates/res/merged/debug/layout_list_item.xml.flat",
+        "source": "/Users/Rafael/GasRadar/app/src/main/res/layout/list_item.xml"
+    },
+    {
         "merged": "/Users/Rafael/GasRadar/app/build/intermediates/res/merged/debug/layout_activity_maps.xml.flat",
         "source": "/Users/Rafael/GasRadar/app/src/main/res/layout/activity_maps.xml"
     },
