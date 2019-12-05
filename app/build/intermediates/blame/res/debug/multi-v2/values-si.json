@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/Rafael/GasRadar/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-si/values-si.xml",
+            "outputFile": "/Users/Rafael/GasRadar copy 2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-si/values-si.xml",
             "map": [
                 {
                     "source": "/Users/Rafael/.gradle/caches/transforms-2/files-2.1/d890c1d12eb1ff72469cc396f12b3524/places-2.1.0/res/values-si/values.xml",

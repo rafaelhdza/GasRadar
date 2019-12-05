@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/Rafael/GasRadar/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kk/values-kk.xml",
+            "outputFile": "/Users/Rafael/GasRadar copy 2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kk/values-kk.xml",
             "map": [
                 {
                     "source": "/Users/Rafael/.gradle/caches/transforms-2/files-2.1/3fdf641b124e4bbc6efd160c110ba0f5/jetified-play-services-basement-17.0.0/res/values-kk/values.xml",

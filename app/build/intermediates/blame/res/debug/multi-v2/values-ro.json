@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/Rafael/GasRadar/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml",
+            "outputFile": "/Users/Rafael/GasRadar copy 2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml",
             "map": [
                 {
                     "source": "/Users/Rafael/.gradle/caches/transforms-2/files-2.1/18d9da331592f8943b295ffdad52b11b/jetified-facebook-login-5.11.0/res/values-ro/values-ro.xml",

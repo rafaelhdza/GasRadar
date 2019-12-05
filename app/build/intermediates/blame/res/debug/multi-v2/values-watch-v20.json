@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/Rafael/GasRadar/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "/Users/Rafael/GasRadar copy 2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
                     "source": "/Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/res/values-watch-v20/values.xml",

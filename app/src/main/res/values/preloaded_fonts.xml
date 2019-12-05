@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/allerta</item>
+        <item>@font/libre_franklin</item>
+        <item>@font/libre_franklin_black</item>
+        <item>@font/libre_franklin_light</item>
+        <item>@font/libre_franklin_medium</item>
+        <item>@font/libre_franklin_semibold_italic</item>
+        <item>@font/libre_franklin_thin</item>
+    </array>
+</resources>

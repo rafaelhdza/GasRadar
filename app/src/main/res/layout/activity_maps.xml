@@ -1,100 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:map="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <!--Google Maps Fragment-->
-
-    <!-- <CardView
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-         android:layout_marginTop="16dp"
-         android:layout_marginBottom="16dp">
-
-         <fragment
-             android:id="@+id/autocomplete_fragment"
-             android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
-             android:layout_width="match_parent"
-             android:layout_height="wrap_content"
-             />
-
-     </CardView>-->
-
-<!--
-<RelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="50dp"
-    android:layout_marginTop = "10dp"
-    android:layout_marginRight="10dp"
-    android:layout_marginLeft= "10dp"
-    android:elevation="10dp"
-    android:background="@drawable/white_border"
-    android:id="@+id/relLayout1">
-
-
-   <ImageView
-        android:layout_width="15dp"
-        android:layout_height="15dp"
-        android:id="@+id/ic_magnify"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="10dp"
-        android:src="@drawable/ic_magnify"/>
-
-    <EditText
+    <Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_toRightOf="@+id/ic_magnify"
-        android:layout_centerVertical="true"
-        android:textSize="15sp"
-        android:textColor="#000"
-        android:id="@+id/input_search"
-        android:background="@null"
-        android:hint="Enter Address,City or Zip Code"
-        android:imeOptions="actionSearch"
-        />
-
-
-</RelativeLayout> -->
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toTopOf="parent" />
 
     <fragment
         android:id="@+id/map"
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".MapsActivity"
-        tools:layout="@layout/activity_maps" />
+        android:layout_height="400dp"
+        android:layout_marginTop="56dp"
+        map:layout_constraintStart_toStartOf="@id/toolbar"
+        map:layout_constraintTop_toTopOf="parent"
+        tools:context=".MapsActivity" />
 
-    <Button
+    <ImageButton
         android:id="@+id/SearchButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Search"
-        android:layout_marginRight="25dp"
-        android:layout_marginTop="350dp"
-        android:layout_marginLeft="300dp"
-
-
-        />
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/btn_background"
+        android:src="@drawable/places_ic_search"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintTop_toTopOf="@+id/map" />
 
     <ImageButton
         android:id="@+id/gps_button"
-        android:background="@drawable/btn_background"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="400dp"
-        android:layout_marginRight="25dp"
-        android:src="@drawable/ic_gps" />
-
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="72dp"
+        android:background="@drawable/btn_background"
+        android:src="@drawable/ic_gps"
+        map:layout_constraintBottom_toTopOf="@+id/list_view"
+        map:layout_constraintEnd_toEndOf="parent" />
 
     <ListView
         android:id="@+id/list_view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="450dp" />
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintTop_toBottomOf="@+id/map" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
 
 
 
-</RelativeLayout>
+

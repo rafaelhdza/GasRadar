@@ -6,16 +6,16 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-8-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml
+8-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml
+9-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-11-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:5:5-79
-11-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:5:22-76
+11-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:5:5-79
+11-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:5:22-76
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:6:5-67
-12-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:6:22-64
+12-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:6:5-67
+12-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:6:22-64
 13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Include required permissions for Google Maps API to run. -->
 13-->[com.google.android.libraries.places:places:2.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/d890c1d12eb1ff72469cc396f12b3524/places-2.1.0/AndroidManifest.xml:10:5-76
 13-->[com.google.android.libraries.places:places:2.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/d890c1d12eb1ff72469cc396f12b3524/places-2.1.0/AndroidManifest.xml:10:22-73
@@ -41,378 +41,397 @@
 22-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:26:22-107
 23
 24    <application
-24-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:7:5-69:19
+24-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:7:5-71:19
 25        android:allowBackup="true"
-25-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:8:9-35
+25-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:8:9-35
 26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 26-->[androidx.core:core:1.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/e7a0db2c8c228644eb3f3f178eedda8f/core-1.1.0/AndroidManifest.xml:24:18-86
 27        android:debuggable="true"
 28        android:extractNativeLibs="false"
 29        android:icon="@mipmap/ic_launcher"
-29-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:9:9-43
+29-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:9:9-43
 30        android:label="@string/app_name"
-30-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:10:9-41
+30-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:10:9-41
 31        android:roundIcon="@mipmap/ic_launcher_round"
-31-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:11:9-54
+31-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:11:9-54
 32        android:supportsRtl="true"
-32-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:12:9-35
-33        android:testOnly="true"
-34        android:theme="@style/AppTheme" >
-34-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:13:9-40
-35        <activity android:name="com.example.gasradar.Home" />
-35-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:15:9-51
-35-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:15:19-39
-36        <activity android:name="com.example.gasradar.LoginPage" />
-36-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:16:9-47
-36-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:16:19-44
-37        <activity android:name="com.example.gasradar.SignUp" />
-37-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:17:9-44
-37-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:17:19-41
-38        <activity android:name="com.example.gasradar.PlacesInfo" />
-38-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:18:9-48
-38-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:18:19-45
-39        <activity android:name="com.example.gasradar.HttpHandler" />
-39-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:19:9-49
-39-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:19:19-46
-40        <activity android:name="com.example.gasradar.IntroPage" >
-40-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:20:9-35:20
-40-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:20:19-44
-41            <intent-filter>
-41-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:21:13-24:29
-42                <action android:name="android.intent.action.MAIN" />
-42-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:22:17-69
-42-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:22:25-66
-43
-44                <category android:name="android.intent.category.LAUNCHER" />
-44-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:23:17-77
-44-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:23:27-74
-45            </intent-filter>
-46            <intent-filter>
-46-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:25:13-34:29
-47                <action android:name="android.intent.action.VIEW" />
-47-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:26:17-69
-47-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:26:25-66
-48
-49                <category android:name="android.intent.category.DEFAULT" />
-49-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:28:17-76
-49-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:28:27-73
-50                <category android:name="android.intent.category.BROWSABLE" />
-50-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:29:17-78
-50-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:29:27-75
-51
-52                <data
-52-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:31:17-33:46
-53                    android:host="example.com"
-53-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:32:21-47
-54                    android:scheme="https" />
-54-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:33:21-43
-55            </intent-filter>
-56        </activity>
-57
-58        <meta-data
-58-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:37:9-39:55
-59            android:name="com.google.android.geo.API_KEY"
-59-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:38:13-58
-60            android:value="@string/google_maps_key" />
-60-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:39:13-52
-61
-62        <activity
-62-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:41:9-49:20
-63            android:name="com.example.gasradar.MapsActivity"
-63-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:42:13-41
-64            android:label="@string/title_activity_maps" >
-64-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:43:13-56
-65            <intent-filter>
-65-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:21:13-24:29
-66                <action android:name="android.intent.action.MAIN" />
-66-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:22:17-69
-66-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:22:25-66
-67
-68                <category android:name="android.intent.category.LAUNCHER" />
-68-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:23:17-77
-68-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:23:27-74
-69            </intent-filter>
-70        </activity>
-71
-72        <meta-data
-72-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:51:9-52:54
-73            android:name="com.facebook.sdk.ApplicationId"
-73-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:51:20-65
-74            android:value="@string/facebook_app_id" />
-74-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:52:13-52
-75
-76        <activity
-76-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:54:9-57:48
-77            android:name="com.facebook.FacebookActivity"
-77-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:54:19-63
-78            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-78-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:55:13-113
-79            android:label="@string/app_name"
-79-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:57:13-45
-80            android:theme="@style/com_facebook_activity_theme" />
-80-->[com.facebook.android:facebook-common:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/d4627fc785ba7a6b5096f9fd56be8fac/jetified-facebook-common-5.11.0/AndroidManifest.xml:32:13-63
-81        <activity
-81-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:58:9-67:20
-82            android:name="com.facebook.CustomTabActivity"
-82-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:59:13-58
-83            android:exported="true" >
-83-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:60:13-36
-84            <intent-filter>
-84-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:61:13-66:29
-85                <action android:name="android.intent.action.VIEW" />
-85-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:26:17-69
-85-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:26:25-66
-86
-87                <category android:name="android.intent.category.DEFAULT" />
-87-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:28:17-76
-87-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:28:27-73
-88                <category android:name="android.intent.category.BROWSABLE" />
-88-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:29:17-78
-88-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:29:27-75
-89
-90                <data android:scheme="@string/fb_login_protocol_scheme" />
-90-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:31:17-33:46
-90-->/Users/Rafael/GasRadar/app/src/main/AndroidManifest.xml:33:21-43
-91            </intent-filter>
-92        </activity>
-93        <activity
-93-->[com.google.android.libraries.places:places:2.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/d890c1d12eb1ff72469cc396f12b3524/places-2.1.0/AndroidManifest.xml:14:9-20:20
-94            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
-94-->[com.google.android.libraries.places:places:2.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/d890c1d12eb1ff72469cc396f12b3524/places-2.1.0/AndroidManifest.xml:15:13-91
-95            android:exported="false"
-95-->[com.google.android.libraries.places:places:2.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/d890c1d12eb1ff72469cc396f12b3524/places-2.1.0/AndroidManifest.xml:16:13-37
-96            android:label="@string/places_autocomplete_label"
-96-->[com.google.android.libraries.places:places:2.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/d890c1d12eb1ff72469cc396f12b3524/places-2.1.0/AndroidManifest.xml:17:13-62
-97            android:theme="@style/PlacesAutocompleteOverlay"
-97-->[com.google.android.libraries.places:places:2.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/d890c1d12eb1ff72469cc396f12b3524/places-2.1.0/AndroidManifest.xml:18:13-61
-98            android:windowSoftInputMode="adjustResize" >
-98-->[com.google.android.libraries.places:places:2.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/d890c1d12eb1ff72469cc396f12b3524/places-2.1.0/AndroidManifest.xml:19:13-55
-99        </activity>
-100        <activity android:name="com.facebook.CustomTabMainActivity" /> <!-- Needs to be explicitly declared on P+ -->
-100-->[com.facebook.android:facebook-common:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/d4627fc785ba7a6b5096f9fd56be8fac/jetified-facebook-common-5.11.0/AndroidManifest.xml:33:9-71
-100-->[com.facebook.android:facebook-common:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/d4627fc785ba7a6b5096f9fd56be8fac/jetified-facebook-common-5.11.0/AndroidManifest.xml:33:19-68
-101        <uses-library
-101-->[com.google.android.gms:play-services-maps:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/caa529679f65d8db1d5ef248464fd49b/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
-102            android:name="org.apache.http.legacy"
-102-->[com.google.android.gms:play-services-maps:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/caa529679f65d8db1d5ef248464fd49b/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
-103            android:required="false" />
-103-->[com.google.android.gms:play-services-maps:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/caa529679f65d8db1d5ef248464fd49b/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
-104
-105        <activity
-105-->[com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:24:9-31:50
-106            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-106-->[com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:25:13-85
-107            android:excludeFromRecents="true"
-107-->[com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:26:13-46
-108            android:exported="true"
-108-->[com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:27:13-36
-109            android:launchMode="singleTask"
-109-->[com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:28:13-44
-110            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-110-->[com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:29:13-102
-111            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-111-->[com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:30:13-72
-112
-113        <service
-113-->[com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:33:9-39:19
-114            android:name="com.google.firebase.components.ComponentDiscoveryService"
-114-->[com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:34:13-84
-115            android:exported="false" >
-115-->[com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:35:13-37
-116            <meta-data
-116-->[com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:36:13-38:85
-117                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-117-->[com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:37:17-109
-118                android:value="com.google.firebase.components.ComponentRegistrar" />
-118-->[com.google.firebase:firebase-auth:19.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/f61a02811df90e43ae5f70e98238a455/firebase-auth-19.1.0/AndroidManifest.xml:38:17-82
-119            <meta-data
-119-->[com.google.firebase:firebase-dynamic-links:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/4bb48ce5e10ec3e06818d3b8ce8ea736/firebase-dynamic-links-19.0.0/AndroidManifest.xml:9:13-11:85
-120                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar"
-120-->[com.google.firebase:firebase-dynamic-links:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/4bb48ce5e10ec3e06818d3b8ce8ea736/firebase-dynamic-links-19.0.0/AndroidManifest.xml:10:17-133
-121                android:value="com.google.firebase.components.ComponentRegistrar" />
-121-->[com.google.firebase:firebase-dynamic-links:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/4bb48ce5e10ec3e06818d3b8ce8ea736/firebase-dynamic-links-19.0.0/AndroidManifest.xml:11:17-82
-122            <meta-data
-122-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/a59d3b8db7f6cead925fe1c48a49ee3a/play-services-measurement-api-17.2.1/AndroidManifest.xml:30:13-32:85
-123                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-123-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/a59d3b8db7f6cead925fe1c48a49ee3a/play-services-measurement-api-17.2.1/AndroidManifest.xml:31:17-139
-124                android:value="com.google.firebase.components.ComponentRegistrar" />
-124-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/a59d3b8db7f6cead925fe1c48a49ee3a/play-services-measurement-api-17.2.1/AndroidManifest.xml:32:17-82
-125            <meta-data
-125-->[com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:32:13-34:85
-126                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-126-->[com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:33:17-96
-127                android:value="com.google.firebase.components.ComponentRegistrar" />
-127-->[com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:34:17-82
-128        </service>
-129
-130        <activity
-130-->[com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
-131            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-131-->[com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
-132            android:excludeFromRecents="true"
-132-->[com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
-133            android:exported="false"
-133-->[com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
-134            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-134-->[com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
-135        <!--
-136            Service handling Google Sign-In user revocation. For apps that do not integrate with
-137            Google Sign-In, this service will never be started.
-138        -->
-139        <service
-139-->[com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
-140            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-140-->[com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
-141            android:exported="true"
-141-->[com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
-142            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
-142-->[com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
-143
-144        <receiver
-144-->[com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:37:9-44:20
-145            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-145-->[com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:38:13-78
-146            android:exported="true"
-146-->[com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:39:13-36
-147            android:permission="com.google.android.c2dm.permission.SEND" >
-147-->[com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:40:13-73
-148            <intent-filter>
-148-->[com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:41:13-43:29
-149                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-149-->[com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:42:17-81
-149-->[com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:42:25-78
-150            </intent-filter>
-151        </receiver>
-152
-153        <activity
-153-->[com.google.android.gms:play-services-base:17.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/89b58047dabc80b61a02f1a132f7b1e8/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
-154            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-154-->[com.google.android.gms:play-services-base:17.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/89b58047dabc80b61a02f1a132f7b1e8/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
-155            android:exported="false"
-155-->[com.google.android.gms:play-services-base:17.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/89b58047dabc80b61a02f1a132f7b1e8/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
-156            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-156-->[com.google.android.gms:play-services-base:17.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/89b58047dabc80b61a02f1a132f7b1e8/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
-157
-158        <provider
-158-->[com.google.firebase:firebase-common:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/70f337655de90d5c742e4d0ca76b9331/firebase-common-19.0.0/AndroidManifest.xml:12:9-16:39
-159            android:name="com.google.firebase.provider.FirebaseInitProvider"
-159-->[com.google.firebase:firebase-common:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/70f337655de90d5c742e4d0ca76b9331/firebase-common-19.0.0/AndroidManifest.xml:13:13-77
-160            android:authorities="com.example.gasradar.firebaseinitprovider"
-160-->[com.google.firebase:firebase-common:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/70f337655de90d5c742e4d0ca76b9331/firebase-common-19.0.0/AndroidManifest.xml:14:13-72
-161            android:exported="false"
-161-->[com.google.firebase:firebase-common:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/70f337655de90d5c742e4d0ca76b9331/firebase-common-19.0.0/AndroidManifest.xml:15:13-37
-162            android:initOrder="100" />
-162-->[com.google.firebase:firebase-common:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/70f337655de90d5c742e4d0ca76b9331/firebase-common-19.0.0/AndroidManifest.xml:16:13-36
-163
-164        <receiver
-164-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:29:9-33:20
-165            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-165-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:30:13-85
-166            android:enabled="true"
-166-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:31:13-35
-167            android:exported="false" >
-167-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:32:13-37
-168        </receiver>
-169        <receiver
-169-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:34:9-42:20
-170            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-170-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:35:13-100
-171            android:enabled="true"
-171-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:36:13-35
-172            android:exported="true"
-172-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:37:13-36
-173            android:permission="android.permission.INSTALL_PACKAGES" >
-173-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:38:13-69
-174            <intent-filter>
-174-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:39:13-41:29
-175                <action android:name="com.android.vending.INSTALL_REFERRER" />
-175-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:40:17-79
-175-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:40:25-76
-176            </intent-filter>
-177        </receiver>
-178
-179        <service
-179-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:44:9-47:40
-180            android:name="com.google.android.gms.measurement.AppMeasurementService"
-180-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:45:13-84
-181            android:enabled="true"
-181-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:46:13-35
-182            android:exported="false" />
-182-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:47:13-37
-183        <service
-183-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:48:9-52:72
-184            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-184-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:49:13-87
-185            android:enabled="true"
-185-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:50:13-35
-186            android:exported="false"
-186-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:51:13-37
-187            android:permission="android.permission.BIND_JOB_SERVICE" />
-187-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:52:13-69
-188
-189        <meta-data
-189-->[com.google.android.gms:play-services-basement:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/3fdf641b124e4bbc6efd160c110ba0f5/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-190            android:name="com.google.android.gms.version"
-190-->[com.google.android.gms:play-services-basement:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/3fdf641b124e4bbc6efd160c110ba0f5/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-191            android:value="@integer/google_play_services_version" />
-191-->[com.google.android.gms:play-services-basement:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/3fdf641b124e4bbc6efd160c110ba0f5/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-192        <!--
-193         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
-194         with the application context. This config is merged in with the host app's manifest,
-195         but there can only be one provider with the same authority activated at any given
-196         point; so if the end user has two or more different apps that use Facebook SDK, only the
-197         first one will be able to use the provider. To work around this problem, we use the
-198         following placeholder in the authority to identify each host application as if it was
-199         a completely different provider.
-200        -->
-201        <provider
-201-->[com.facebook.android:facebook-core:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8632ff629638c26479941cb314643b46/jetified-facebook-core-5.11.0/AndroidManifest.xml:39:9-42:40
-202            android:name="com.facebook.internal.FacebookInitProvider"
-202-->[com.facebook.android:facebook-core:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8632ff629638c26479941cb314643b46/jetified-facebook-core-5.11.0/AndroidManifest.xml:40:13-70
-203            android:authorities="com.example.gasradar.FacebookInitProvider"
-203-->[com.facebook.android:facebook-core:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8632ff629638c26479941cb314643b46/jetified-facebook-core-5.11.0/AndroidManifest.xml:41:13-72
-204            android:exported="false" />
-204-->[com.facebook.android:facebook-core:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8632ff629638c26479941cb314643b46/jetified-facebook-core-5.11.0/AndroidManifest.xml:42:13-37
-205
-206        <receiver
-206-->[com.facebook.android:facebook-core:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8632ff629638c26479941cb314643b46/jetified-facebook-core-5.11.0/AndroidManifest.xml:44:9-50:20
-207            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
-207-->[com.facebook.android:facebook-core:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8632ff629638c26479941cb314643b46/jetified-facebook-core-5.11.0/AndroidManifest.xml:45:13-86
-208            android:exported="false" >
-208-->[com.facebook.android:facebook-core:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8632ff629638c26479941cb314643b46/jetified-facebook-core-5.11.0/AndroidManifest.xml:46:13-37
-209            <intent-filter>
-209-->[com.facebook.android:facebook-core:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8632ff629638c26479941cb314643b46/jetified-facebook-core-5.11.0/AndroidManifest.xml:47:13-49:29
-210                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
-210-->[com.facebook.android:facebook-core:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8632ff629638c26479941cb314643b46/jetified-facebook-core-5.11.0/AndroidManifest.xml:48:17-95
-210-->[com.facebook.android:facebook-core:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8632ff629638c26479941cb314643b46/jetified-facebook-core-5.11.0/AndroidManifest.xml:48:25-92
-211            </intent-filter>
-212        </receiver>
-213        <receiver
-213-->[com.facebook.android:facebook-core:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8632ff629638c26479941cb314643b46/jetified-facebook-core-5.11.0/AndroidManifest.xml:51:9-58:20
-214            android:name="com.facebook.CampaignTrackingReceiver"
-214-->[com.facebook.android:facebook-core:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8632ff629638c26479941cb314643b46/jetified-facebook-core-5.11.0/AndroidManifest.xml:52:13-65
-215            android:exported="true"
-215-->[com.facebook.android:facebook-core:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8632ff629638c26479941cb314643b46/jetified-facebook-core-5.11.0/AndroidManifest.xml:53:13-36
-216            android:permission="android.permission.INSTALL_PACKAGES" >
-216-->[com.facebook.android:facebook-core:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8632ff629638c26479941cb314643b46/jetified-facebook-core-5.11.0/AndroidManifest.xml:54:13-69
-217            <intent-filter>
-217-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:39:13-41:29
-218                <action android:name="com.android.vending.INSTALL_REFERRER" />
-218-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:40:17-79
-218-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:40:25-76
-219            </intent-filter>
-220        </receiver>
-221
-222        <provider
-222-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/26b73dff2b4661b12c08248c9840c59e/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
-223            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-223-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/26b73dff2b4661b12c08248c9840c59e/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
-224            android:authorities="com.example.gasradar.lifecycle-process"
-224-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/26b73dff2b4661b12c08248c9840c59e/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
-225            android:exported="false"
-225-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/26b73dff2b4661b12c08248c9840c59e/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
-226            android:multiprocess="true" />
-226-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/26b73dff2b4661b12c08248c9840c59e/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
-227    </application>
-228
-229</manifest>
+32-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:12:9-35
+33        android:theme="@style/AppTheme" >
+33-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:13:9-40
+34        <activity android:name="com.example.gasradar.LoginPage" >
+34-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:15:9-57
+34-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:15:19-44
+35        </activity>
+36        <activity android:name="com.example.gasradar.SignUp" >
+36-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:16:9-54
+36-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:16:19-41
+37        </activity>
+38        <activity android:name="com.example.gasradar.GasInformation" >
+38-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:17:9-62
+38-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:17:19-49
+39        </activity>
+40        <activity android:name="com.example.gasradar.HttpHandler" >
+40-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:18:9-60
+40-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:18:19-46
+41        </activity>
+42        <activity android:name="com.example.gasradar.IntroPage" >
+42-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:19:9-34:20
+42-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:19:19-44
+43            <intent-filter>
+43-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:20:13-23:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:21:17-69
+44-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:21:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:22:17-77
+46-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:22:27-74
+47            </intent-filter>
+48            <intent-filter>
+48-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:24:13-33:29
+49                <action android:name="android.intent.action.VIEW" />
+49-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:25:17-69
+49-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:25:25-66
+50
+51                <category android:name="android.intent.category.DEFAULT" />
+51-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:27:17-76
+51-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:27:27-73
+52                <category android:name="android.intent.category.BROWSABLE" />
+52-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:28:17-78
+52-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:28:27-75
+53
+54                <data
+54-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:30:17-32:46
+55                    android:host="example.com"
+55-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:31:21-47
+56                    android:scheme="https" />
+56-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:32:21-43
+57            </intent-filter>
+58        </activity>
+59
+60        <meta-data
+60-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:36:9-38:55
+61            android:name="com.google.android.geo.API_KEY"
+61-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:37:13-58
+62            android:value="@string/google_maps_key" />
+62-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:38:13-52
+63
+64        <activity
+64-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:40:9-48:20
+65            android:name="com.example.gasradar.MapsActivity"
+65-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:41:13-41
+66            android:hardwareAccelerated="true"
+66-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:43:13-47
+67            android:label="@string/title_activity_maps" >
+67-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:42:13-56
+68            <intent-filter>
+68-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:20:13-23:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:21:17-69
+69-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:21:25-66
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:22:17-77
+71-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:22:27-74
+72            </intent-filter>
+73        </activity>
+74
+75        <meta-data
+75-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:50:9-51:54
+76            android:name="com.facebook.sdk.ApplicationId"
+76-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:50:20-65
+77            android:value="@string/facebook_app_id" />
+77-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:51:13-52
+78        <meta-data
+78-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:52:9-54:57
+79            android:name="preloaded_fonts"
+79-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:53:13-43
+80            android:resource="@array/preloaded_fonts" />
+80-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:54:13-54
+81
+82        <activity
+82-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:56:9-59:48
+83            android:name="com.facebook.FacebookActivity"
+83-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:56:19-63
+84            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+84-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:57:13-113
+85            android:label="@string/app_name"
+85-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:59:13-45
+86            android:theme="@style/com_facebook_activity_theme" />
+86-->[com.facebook.android:facebook-common:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/d4627fc785ba7a6b5096f9fd56be8fac/jetified-facebook-common-5.11.0/AndroidManifest.xml:32:13-63
+87        <activity
+87-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:60:9-69:20
+88            android:name="com.facebook.CustomTabActivity"
+88-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:61:13-58
+89            android:exported="true" >
+89-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:62:13-36
+90            <intent-filter>
+90-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:63:13-68:29
+91                <action android:name="android.intent.action.VIEW" />
+91-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:25:17-69
+91-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:25:25-66
+92
+93                <category android:name="android.intent.category.DEFAULT" />
+93-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:27:17-76
+93-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:27:27-73
+94                <category android:name="android.intent.category.BROWSABLE" />
+94-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:28:17-78
+94-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:28:27-75
+95
+96                <data android:scheme="@string/fb_login_protocol_scheme" />
+96-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:30:17-32:46
+96-->/Users/Rafael/GasRadar copy 2/app/src/main/AndroidManifest.xml:32:21-43
+97            </intent-filter>
+98        </activity>
+99        <activity
+99-->[com.google.android.libraries.places:places:2.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/d890c1d12eb1ff72469cc396f12b3524/places-2.1.0/AndroidManifest.xml:14:9-20:20
+100            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+100-->[com.google.android.libraries.places:places:2.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/d890c1d12eb1ff72469cc396f12b3524/places-2.1.0/AndroidManifest.xml:15:13-91
+101            android:exported="false"
+101-->[com.google.android.libraries.places:places:2.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/d890c1d12eb1ff72469cc396f12b3524/places-2.1.0/AndroidManifest.xml:16:13-37
+102            android:label="@string/places_autocomplete_label"
+102-->[com.google.android.libraries.places:places:2.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/d890c1d12eb1ff72469cc396f12b3524/places-2.1.0/AndroidManifest.xml:17:13-62
+103            android:theme="@style/PlacesAutocompleteOverlay"
+103-->[com.google.android.libraries.places:places:2.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/d890c1d12eb1ff72469cc396f12b3524/places-2.1.0/AndroidManifest.xml:18:13-61
+104            android:windowSoftInputMode="adjustResize" >
+104-->[com.google.android.libraries.places:places:2.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/d890c1d12eb1ff72469cc396f12b3524/places-2.1.0/AndroidManifest.xml:19:13-55
+105        </activity>
+106        <activity android:name="com.facebook.CustomTabMainActivity" /> <!-- Needs to be explicitly declared on P+ -->
+106-->[com.facebook.android:facebook-common:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/d4627fc785ba7a6b5096f9fd56be8fac/jetified-facebook-common-5.11.0/AndroidManifest.xml:33:9-71
+106-->[com.facebook.android:facebook-common:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/d4627fc785ba7a6b5096f9fd56be8fac/jetified-facebook-common-5.11.0/AndroidManifest.xml:33:19-68
+107        <uses-library
+107-->[com.google.android.gms:play-services-maps:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/caa529679f65d8db1d5ef248464fd49b/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+108            android:name="org.apache.http.legacy"
+108-->[com.google.android.gms:play-services-maps:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/caa529679f65d8db1d5ef248464fd49b/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+109            android:required="false" />
+109-->[com.google.android.gms:play-services-maps:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/caa529679f65d8db1d5ef248464fd49b/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+110
+111        <provider
+111-->[com.squareup.picasso:picasso:2.71828] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8405c97b9c99feb1fa2396fb0a1de226/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+112            android:name="com.squareup.picasso.PicassoProvider"
+112-->[com.squareup.picasso:picasso:2.71828] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8405c97b9c99feb1fa2396fb0a1de226/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+113            android:authorities="com.example.gasradar.com.squareup.picasso"
+113-->[com.squareup.picasso:picasso:2.71828] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8405c97b9c99feb1fa2396fb0a1de226/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+114            android:exported="false" />
+114-->[com.squareup.picasso:picasso:2.71828] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8405c97b9c99feb1fa2396fb0a1de226/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+115
+116        <activity
+116-->[com.google.firebase:firebase-auth:19.2.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/979a3ec57f0e2aca50f215a39022829a/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+117            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+117-->[com.google.firebase:firebase-auth:19.2.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/979a3ec57f0e2aca50f215a39022829a/firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+118            android:excludeFromRecents="true"
+118-->[com.google.firebase:firebase-auth:19.2.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/979a3ec57f0e2aca50f215a39022829a/firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+119            android:exported="true"
+119-->[com.google.firebase:firebase-auth:19.2.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/979a3ec57f0e2aca50f215a39022829a/firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+120            android:launchMode="singleTask"
+120-->[com.google.firebase:firebase-auth:19.2.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/979a3ec57f0e2aca50f215a39022829a/firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+121            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+121-->[com.google.firebase:firebase-auth:19.2.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/979a3ec57f0e2aca50f215a39022829a/firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+122            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+122-->[com.google.firebase:firebase-auth:19.2.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/979a3ec57f0e2aca50f215a39022829a/firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+123
+124        <service
+124-->[com.google.firebase:firebase-auth:19.2.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/979a3ec57f0e2aca50f215a39022829a/firebase-auth-19.2.0/AndroidManifest.xml:33:9-39:19
+125            android:name="com.google.firebase.components.ComponentDiscoveryService"
+125-->[com.google.firebase:firebase-auth:19.2.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/979a3ec57f0e2aca50f215a39022829a/firebase-auth-19.2.0/AndroidManifest.xml:34:13-84
+126            android:directBootAware="true"
+126-->[com.google.firebase:firebase-common:19.3.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/ff9736af0e2087ae8f595bc2e32be5dd/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+127            android:exported="false" >
+127-->[com.google.firebase:firebase-auth:19.2.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/979a3ec57f0e2aca50f215a39022829a/firebase-auth-19.2.0/AndroidManifest.xml:35:13-37
+128            <meta-data
+128-->[com.google.firebase:firebase-auth:19.2.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/979a3ec57f0e2aca50f215a39022829a/firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+129                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+129-->[com.google.firebase:firebase-auth:19.2.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/979a3ec57f0e2aca50f215a39022829a/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-auth:19.2.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/979a3ec57f0e2aca50f215a39022829a/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+131            <meta-data
+131-->[com.google.firebase:firebase-dynamic-links:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/4bb48ce5e10ec3e06818d3b8ce8ea736/firebase-dynamic-links-19.0.0/AndroidManifest.xml:9:13-11:85
+132                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar"
+132-->[com.google.firebase:firebase-dynamic-links:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/4bb48ce5e10ec3e06818d3b8ce8ea736/firebase-dynamic-links-19.0.0/AndroidManifest.xml:10:17-133
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[com.google.firebase:firebase-dynamic-links:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/4bb48ce5e10ec3e06818d3b8ce8ea736/firebase-dynamic-links-19.0.0/AndroidManifest.xml:11:17-82
+134            <meta-data
+134-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/a59d3b8db7f6cead925fe1c48a49ee3a/play-services-measurement-api-17.2.1/AndroidManifest.xml:30:13-32:85
+135                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+135-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/a59d3b8db7f6cead925fe1c48a49ee3a/play-services-measurement-api-17.2.1/AndroidManifest.xml:31:17-139
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/a59d3b8db7f6cead925fe1c48a49ee3a/play-services-measurement-api-17.2.1/AndroidManifest.xml:32:17-82
+137            <meta-data
+137-->[com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:32:13-34:85
+138                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+138-->[com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:33:17-96
+139                android:value="com.google.firebase.components.ComponentRegistrar" />
+139-->[com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:34:17-82
+140        </service>
+141
+142        <activity
+142-->[com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
+143            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+143-->[com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
+144            android:excludeFromRecents="true"
+144-->[com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
+145            android:exported="false"
+145-->[com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
+146            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+146-->[com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
+147        <!--
+148            Service handling Google Sign-In user revocation. For apps that do not integrate with
+149            Google Sign-In, this service will never be started.
+150        -->
+151        <service
+151-->[com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
+152            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+152-->[com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
+153            android:exported="true"
+153-->[com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
+154            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+154-->[com.google.android.gms:play-services-auth:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/2ab19a01158e055fe3af3828af37848a/play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
+155
+156        <receiver
+156-->[com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:37:9-44:20
+157            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+157-->[com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:38:13-78
+158            android:exported="true"
+158-->[com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:39:13-36
+159            android:permission="com.google.android.c2dm.permission.SEND" >
+159-->[com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:40:13-73
+160            <intent-filter>
+160-->[com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:41:13-43:29
+161                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+161-->[com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:42:17-81
+161-->[com.google.firebase:firebase-iid:19.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/c94a0fa01e2d90686da0b698fd70fb9e/firebase-iid-19.0.0/AndroidManifest.xml:42:25-78
+162            </intent-filter>
+163        </receiver>
+164
+165        <activity
+165-->[com.google.android.gms:play-services-base:17.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/89b58047dabc80b61a02f1a132f7b1e8/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+166            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+166-->[com.google.android.gms:play-services-base:17.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/89b58047dabc80b61a02f1a132f7b1e8/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+167            android:exported="false"
+167-->[com.google.android.gms:play-services-base:17.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/89b58047dabc80b61a02f1a132f7b1e8/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+168            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+168-->[com.google.android.gms:play-services-base:17.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/89b58047dabc80b61a02f1a132f7b1e8/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+169
+170        <provider
+170-->[com.google.firebase:firebase-common:19.3.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/ff9736af0e2087ae8f595bc2e32be5dd/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+171            android:name="com.google.firebase.provider.FirebaseInitProvider"
+171-->[com.google.firebase:firebase-common:19.3.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/ff9736af0e2087ae8f595bc2e32be5dd/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+172            android:authorities="com.example.gasradar.firebaseinitprovider"
+172-->[com.google.firebase:firebase-common:19.3.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/ff9736af0e2087ae8f595bc2e32be5dd/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+173            android:exported="false"
+173-->[com.google.firebase:firebase-common:19.3.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/ff9736af0e2087ae8f595bc2e32be5dd/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+174            android:initOrder="100" />
+174-->[com.google.firebase:firebase-common:19.3.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/ff9736af0e2087ae8f595bc2e32be5dd/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+175
+176        <receiver
+176-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:29:9-33:20
+177            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+177-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:30:13-85
+178            android:enabled="true"
+178-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:31:13-35
+179            android:exported="false" >
+179-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:32:13-37
+180        </receiver>
+181        <receiver
+181-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:34:9-42:20
+182            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+182-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:35:13-100
+183            android:enabled="true"
+183-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:36:13-35
+184            android:exported="true"
+184-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:37:13-36
+185            android:permission="android.permission.INSTALL_PACKAGES" >
+185-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:38:13-69
+186            <intent-filter>
+186-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:39:13-41:29
+187                <action android:name="com.android.vending.INSTALL_REFERRER" />
+187-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:40:17-79
+187-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:40:25-76
+188            </intent-filter>
+189        </receiver>
+190
+191        <service
+191-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:44:9-47:40
+192            android:name="com.google.android.gms.measurement.AppMeasurementService"
+192-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:45:13-84
+193            android:enabled="true"
+193-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:46:13-35
+194            android:exported="false" />
+194-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:47:13-37
+195        <service
+195-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:48:9-52:72
+196            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+196-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:49:13-87
+197            android:enabled="true"
+197-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:50:13-35
+198            android:exported="false"
+198-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:51:13-37
+199            android:permission="android.permission.BIND_JOB_SERVICE" />
+199-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:52:13-69
+200
+201        <meta-data
+201-->[com.google.android.gms:play-services-basement:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/3fdf641b124e4bbc6efd160c110ba0f5/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+202            android:name="com.google.android.gms.version"
+202-->[com.google.android.gms:play-services-basement:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/3fdf641b124e4bbc6efd160c110ba0f5/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+203            android:value="@integer/google_play_services_version" />
+203-->[com.google.android.gms:play-services-basement:17.0.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/3fdf641b124e4bbc6efd160c110ba0f5/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+204        <!--
+205         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+206         with the application context. This config is merged in with the host app's manifest,
+207         but there can only be one provider with the same authority activated at any given
+208         point; so if the end user has two or more different apps that use Facebook SDK, only the
+209         first one will be able to use the provider. To work around this problem, we use the
+210         following placeholder in the authority to identify each host application as if it was
+211         a completely different provider.
+212        -->
+213        <provider
+213-->[com.facebook.android:facebook-core:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8632ff629638c26479941cb314643b46/jetified-facebook-core-5.11.0/AndroidManifest.xml:39:9-42:40
+214            android:name="com.facebook.internal.FacebookInitProvider"
+214-->[com.facebook.android:facebook-core:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8632ff629638c26479941cb314643b46/jetified-facebook-core-5.11.0/AndroidManifest.xml:40:13-70
+215            android:authorities="com.example.gasradar.FacebookInitProvider"
+215-->[com.facebook.android:facebook-core:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8632ff629638c26479941cb314643b46/jetified-facebook-core-5.11.0/AndroidManifest.xml:41:13-72
+216            android:exported="false" />
+216-->[com.facebook.android:facebook-core:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8632ff629638c26479941cb314643b46/jetified-facebook-core-5.11.0/AndroidManifest.xml:42:13-37
+217
+218        <receiver
+218-->[com.facebook.android:facebook-core:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8632ff629638c26479941cb314643b46/jetified-facebook-core-5.11.0/AndroidManifest.xml:44:9-50:20
+219            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+219-->[com.facebook.android:facebook-core:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8632ff629638c26479941cb314643b46/jetified-facebook-core-5.11.0/AndroidManifest.xml:45:13-86
+220            android:exported="false" >
+220-->[com.facebook.android:facebook-core:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8632ff629638c26479941cb314643b46/jetified-facebook-core-5.11.0/AndroidManifest.xml:46:13-37
+221            <intent-filter>
+221-->[com.facebook.android:facebook-core:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8632ff629638c26479941cb314643b46/jetified-facebook-core-5.11.0/AndroidManifest.xml:47:13-49:29
+222                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+222-->[com.facebook.android:facebook-core:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8632ff629638c26479941cb314643b46/jetified-facebook-core-5.11.0/AndroidManifest.xml:48:17-95
+222-->[com.facebook.android:facebook-core:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8632ff629638c26479941cb314643b46/jetified-facebook-core-5.11.0/AndroidManifest.xml:48:25-92
+223            </intent-filter>
+224        </receiver>
+225        <receiver
+225-->[com.facebook.android:facebook-core:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8632ff629638c26479941cb314643b46/jetified-facebook-core-5.11.0/AndroidManifest.xml:51:9-58:20
+226            android:name="com.facebook.CampaignTrackingReceiver"
+226-->[com.facebook.android:facebook-core:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8632ff629638c26479941cb314643b46/jetified-facebook-core-5.11.0/AndroidManifest.xml:52:13-65
+227            android:exported="true"
+227-->[com.facebook.android:facebook-core:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8632ff629638c26479941cb314643b46/jetified-facebook-core-5.11.0/AndroidManifest.xml:53:13-36
+228            android:permission="android.permission.INSTALL_PACKAGES" >
+228-->[com.facebook.android:facebook-core:5.11.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/8632ff629638c26479941cb314643b46/jetified-facebook-core-5.11.0/AndroidManifest.xml:54:13-69
+229            <intent-filter>
+229-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:39:13-41:29
+230                <action android:name="com.android.vending.INSTALL_REFERRER" />
+230-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:40:17-79
+230-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/eabf7c5c9580d6ebef50e809a9202296/play-services-measurement-17.2.1/AndroidManifest.xml:40:25-76
+231            </intent-filter>
+232        </receiver>
+233
+234        <provider
+234-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/26b73dff2b4661b12c08248c9840c59e/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+235            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+235-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/26b73dff2b4661b12c08248c9840c59e/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
+236            android:authorities="com.example.gasradar.lifecycle-process"
+236-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/26b73dff2b4661b12c08248c9840c59e/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+237            android:exported="false"
+237-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/26b73dff2b4661b12c08248c9840c59e/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+238            android:multiprocess="true" />
+238-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/Rafael/.gradle/caches/transforms-2/files-2.1/26b73dff2b4661b12c08248c9840c59e/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+239    </application>
+240
+241</manifest>

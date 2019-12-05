@@ -4,24 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
     tools:context=".IntroPage">
-
-    <Button
-        android:id="@+id/GuestButton"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="400dp"
-        android:layout_marginEnd="55dp"
-        android:layout_marginBottom="181dp"
-        android:text="Continue as a guest"
-        android:textSize="20sp"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:text="Continue as a guest" />
 
     <!-- <Button
         android:id="@+id/facebookLogInButton"
@@ -37,7 +21,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.523" />-->
-   <!-- <Button
+    <!-- <Button
         android:id="@+id/googleLoginButton"
         android:layout_width="140dp"
         android:layout_height="50dp"
@@ -54,13 +38,60 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.538" />-->
 
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/radar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GasRadarTitle" />
+
+    <Button
+        android:id="@+id/GuestButton"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="132dp"
+        android:background="@drawable/roundshapeguess"
+        android:backgroundTint="#955490FF"
+        android:fontFamily="@font/libre_franklin_medium"
+        android:text="Continue as a guest"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Continue as a guest" />
+
+    <Button
+        android:id="@+id/SignUpMainButton"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/roundshape"
+        android:fontFamily="@font/libre_franklin_medium"
+        android:text="Sign up"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/GuestButton"
+
+
+        app:layout_constraintStart_toStartOf="parent" />
+
     <Button
         android:id="@+id/LogInMainButton"
         android:layout_width="125dp"
         android:layout_height="50dp"
         android:layout_marginStart="55dp"
         android:layout_marginEnd="55dp"
-        android:layout_marginBottom="48dp"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/roundshape"
+        android:fontFamily="@font/libre_franklin_medium"
         android:text="Login"
         android:textSize="20sp"
         android:visibility="visible"
@@ -69,36 +100,20 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/SignUpMainButton"
-        android:layout_width="125dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="55dp"
-        android:layout_marginTop="352dp"
-        android:layout_marginBottom="48dp"
-        android:text="Sign up"
-        android:textSize="20sp"
-        android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/GuestButton"
-        app:layout_constraintStart_toStartOf="parent"
-
-        />
-
     <TextView
         android:id="@+id/GasRadarTitle"
         android:layout_width="300dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="55dp"
-        android:layout_marginBottom="600dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="52dp"
         android:ems="10"
+        android:fontFamily="@font/libre_franklin_semibold_italic"
         android:inputType="textPersonName"
-        android:text="Gas radar"
+        android:text="GAS RADAR"
+        android:textColor="@color/PrimaryReplyBlue800"
         android:textSize="50sp"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
